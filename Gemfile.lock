@@ -36,6 +36,8 @@ GEM
       zeitwerk (~> 2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    arthropod (0.0.3)
+      aws-sdk-sqs
     aws-eventstream (1.0.3)
     aws-mfa-secure (0.4.0)
       activesupport
@@ -226,6 +228,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  arthropod
   byebug
   capybara
   dynomite
